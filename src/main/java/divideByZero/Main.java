@@ -11,6 +11,7 @@ public class Main {
         } catch (ArithmeticException e) {
             System.err.printf("Caught ArithmeticException= %s\n", e);
         }
+        System.out.println(3 / 0);
     }
 
 

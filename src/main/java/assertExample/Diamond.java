@@ -42,6 +42,7 @@ class Diamond {
         // it will generate AssertionError exception.
         try {
             assert (size > 0);
+            assert (size < 20);
             printDiamond(size);
         } catch (AssertionError e) {
             JOptionPane.showMessageDialog(null, "AssertionError is captured: Size should be > 0.");
