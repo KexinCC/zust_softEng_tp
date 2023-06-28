@@ -45,7 +45,7 @@ class Diamond {
             assert (size < 20);
             printDiamond(size);
         } catch (AssertionError e) {
-            JOptionPane.showMessageDialog(null, "AssertionError is captured: Size should be > 0.");
+            JOptionPane.showMessageDialog(null, "AssertionError is captured: Size should be > 0 or < 20");
         }
         System.exit(0);
     }

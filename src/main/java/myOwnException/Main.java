@@ -5,6 +5,10 @@ class MyException extends Exception {
     public MyException() {
     }
 
+    /**
+     *
+     * @param msg Exception msg
+     */
     public MyException(String msg) {
         super(msg);
     }
