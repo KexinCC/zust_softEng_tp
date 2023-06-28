@@ -9,17 +9,18 @@ class MyGrandSonException extends MyChildException {
 
 
 public class Main {
+
+    /**
+     * @see MyGrandSonException
+     * <pre>{@code
+     * try {
+     *    throw new MyGrandSonException();
+     * } catch (MyChildException s) {
+     *    s.printStackTrace();
+     * }
+     * </pre>
+     */
     public static void main(String[] args) {
-        /**
-         * @see MyGrandSonException
-         * <pre>{@code
-         * try {
-         *    throw new MyGrandSonException();
-         * } catch (MyChildException s) {
-         *    s.printStackTrace();
-         * }
-         * </pre>
-         */
         try {
             throw new MyGrandSonException();
         } catch (MyChildException s) {
