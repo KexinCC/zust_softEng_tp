@@ -14,9 +14,10 @@ public class Main {
      * @see MyGrandSonException
      * <pre>{@code
      * try {
-     *    throw new MyGrandSonException();
-     * } catch (MyChildException s) {
-     *    s.printStackTrace();
+     *             throw new MyGrandSonException();
+     *         } catch (MyChildException s) {
+     *             s.printStackTrace();
+     *         }
      * }
      * </pre>
      */
